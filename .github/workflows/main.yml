@@ -23,7 +23,7 @@ jobs:
 
       - name: Gerar app para Mac
         run: |
-          pyinstaller --onefile --windowed --name "Filtro PDF" app_prioridade_1_aluguel_windows_mac.py
+         pyinstaller --onefile --windowed --name "Filtro PDF" app_visual_escuro_windows_mac.py
 
       - name: Compactar app
         run: |
